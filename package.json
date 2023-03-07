@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./css/input.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.9",
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "@tailwindcss/container-queries": "^0.1.0",
+    "superfish": "^1.7.10"
+  }
+}
